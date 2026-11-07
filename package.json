@@ -1,0 +1,28 @@
+{
+  "name": "cite-or-silence",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A RAG assistant that answers with citations or stays silent, with an offline eval suite.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "eval": "tsx evals/run.mts",
+    "ingest": "tsx scripts/ingest.mts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@supabase/supabase-js": "^2.49.0",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  }
+}

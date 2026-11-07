@@ -1,0 +1,19 @@
+{
+  "answerable": [
+    { "q": "How do I rotate an API key?", "source": "auth.md", "heading": "Rotating keys" },
+    { "q": "Which header carries the API key?", "source": "auth.md", "heading": "API keys" },
+    { "q": "What happens when I exceed the rate limit?", "source": "auth.md", "heading": "Rate limits" },
+    { "q": "How much does the Pro plan cost?", "source": "billing.md", "heading": "Plans" },
+    { "q": "Can I get a refund on a monthly subscription?", "source": "billing.md", "heading": "Refunds" },
+    { "q": "Where can I download past invoices?", "source": "billing.md", "heading": "Invoices" },
+    { "q": "How many times are failed webhooks retried?", "source": "webhooks.md", "heading": "Delivery and retries" },
+    { "q": "How do I verify a webhook signature?", "source": "webhooks.md", "heading": "Verifying signatures" },
+    { "q": "Which webhook events are supported?", "source": "webhooks.md", "heading": "Event types" }
+  ],
+  "unanswerable": [
+    "What is the capital of France?",
+    "How do I train a neural network with PyTorch?",
+    "Who won the football world cup in 2018?",
+    "What is the best recipe for chocolate cake?"
+  ]
+}
